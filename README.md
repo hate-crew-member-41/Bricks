@@ -1,6 +1,4 @@
 # Open Data Management
-
-## About
 Description.
 
 ## Contributors
