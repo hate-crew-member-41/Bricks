@@ -8,6 +8,7 @@ Description.
 * Anton Makarov (Gmail: keymonka@gmail.com, Telegram: @wired_monkey)
 * Yulia Orlova (Gmail: julia.australia28@gmail.com, Telegram: @j_ulia_orlov_a)
 * Oleksandr Slobodyanyk (Gmail: lacruaslob@gmail.com, Telegram: @Kielndia_vozress)
+* Andriy Zaloga
 
 
 [Методичні вказівки](./guidelines/guidelines.md)
