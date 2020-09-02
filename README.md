@@ -1,9 +1,9 @@
-## Open Data Management
+# Open Data Management
 
-# About
+## About
 Description.
 
-# Contributors
+## Contributors
 * Victor Buhaiov (Telegram: @mixolydian_b6, Gmail: v.buhayov@gmail.com)
 * Anton Makarov (Telegram: @wired_monkey, Gmail: keymonka@gmail.com)
 * Dmytriy Karpeka (Telegram: @dmitriiKar, Gmail: dmitriy.karpeka@gmail.com)
