@@ -1,10 +1,14 @@
-# Open Data Management
+## Open Data Management
 
-Шаблон репозиторію для виконання лабораторних робіт з курсу "Організація баз даних"
+# About
+Description.
 
-*Для виконання лабораторних робіт необхідно зробити ```fork``` цього репозіторію, склонувати вже власний репозіторій та розміщувати документацію (результати виконання лабораторних робіт) у відповідних діректоріях. 
-В цьому файлі необхідно вказати назву проекту (тему лабораторних робіт). Коротку загальну характеристику
-проекту, контактні дані виконавців.*
+# Contributors
+* Victor Buhaiov (Telegram: @mixolydian_b6, Gmail: v.buhayov@gmail.com)
+* Anton Makarov (Telegram: @wired_monkey, Gmail: keymonka@gmail.com)
+* Dmytriy Karpeka (Telegram: @dmitriiKar, Gmail: dmitriy.karpeka@gmail.com)
+* Yulia Orlova (Telegram: @j_ulia_orlov_a, Gmail: julia.australia28@gmail.com)
+* Yuriy Kubyshka (Telegram: @I_Do_Not_Care_3, Gmail: kubishka.yur@gmail.com)
 
 [Методичні вказівки](./guidelines/guidelines.md)
 
