@@ -3,10 +3,12 @@ Description.
 
 ## Contributors
 * Victor Buhaiov (Gmail: v.buhayov@gmail.com, Telegram: @mixolydian_b6)
-* Anton Makarov (Gmail: keymonka@gmail.com, Telegram: @wired_monkey)
 * Dmytriy Karpeka (Gmail: dmitriy.karpeka@gmail.com, Telegram: @dmitriiKar)
-* Yulia Orlova (Gmail: julia.australia28@gmail.com, Telegram: @j_ulia_orlov_a)
 * Yuriy Kubyshka (Gmail: kubishka.yur@gmail.com, Telegram: @I_Do_Not_Care_3)
+* Anton Makarov (Gmail: keymonka@gmail.com, Telegram: @wired_monkey)
+* Yulia Orlova (Gmail: julia.australia28@gmail.com, Telegram: @j_ulia_orlov_a)
+* Oleksandr Slobodyanyk (Gmail: lacruaslob@gmail.com, Telegram: @Kielndia_vozress)
+
 
 [Методичні вказівки](./guidelines/guidelines.md)
 
