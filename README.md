@@ -2,13 +2,13 @@
 Description.
 
 ## Contributors
-* Victor Buhaiov (Gmail: v.buhayov@gmail.com, Telegram: @mixolydian_b6)
-* Dmytriy Karpeka (Gmail: dmitriy.karpeka@gmail.com, Telegram: @dmitriiKar)
-* Yuriy Kubyshka (Gmail: kubishka.yur@gmail.com, Telegram: @I_Do_Not_Care_3)
-* Anton Makarov (Gmail: keymonka@gmail.com, Telegram: @wired_monkey)
-* Yulia Orlova (Gmail: julia.australia28@gmail.com, Telegram: @j_ulia_orlov_a)
-* Oleksandr Slobodyanyk (Gmail: lacruaslob@gmail.com, Telegram: @Kielndia_vozress)
-* Andriy Zaloga
+* Victor Buhaiov ([GitHub](https://github.com/mixolydian-b6) | Gmail: v.buhayov@gmail.com)
+* Dmytriy Karpeka ([GitHub](https://github.com/vergilinyan) | Gmail: dmitriy.karpeka@gmail.com)
+* Yuriy Kubyshka ([GitHub](https://github.com/Yuras-KARAS-2019) | Gmail: kubishka.yur@gmail.com)
+* Anton Makarov ([GitHub](https://github.com/pagantin) | Gmail: keymonka@gmail.comy)
+* Yulia Orlova ([GitHub](https://github.com/Julia-Orlova) | Gmail: julia.australia28@gmail.com)
+* Oleksandr Slobodyanyk ([GitHub](https://github.com/Eigas) | Gmail: lacruaslob@gmail.com)
+* Andriy Zaloga ([GitHub]() | Gmail: )
 
 
 [Методичні вказівки](./guidelines/guidelines.md)
