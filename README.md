@@ -8,7 +8,7 @@ Description.
 * Anton Makarov ([GitHub](https://github.com/pagantin) | Gmail: keymonka@gmail.comy)
 * Yulia Orlova ([GitHub](https://github.com/Julia-Orlova) | Gmail: julia.australia28@gmail.com)
 * Oleksandr Slobodyanyk ([GitHub](https://github.com/Eigas) | Gmail: lacruaslob@gmail.com)
-* Andriy Zaloga ([GitHub]() | Gmail: )
+* Andriy Zaloga ([GitHub](https://github.com/fuckingsore) | Gmail: zalogandrew@gmail.com)
 
 
 [Методичні вказівки](./guidelines/guidelines.md)
