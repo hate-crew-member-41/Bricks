@@ -1,7 +1,7 @@
 # Bricks
-Description.
+Опис
 
-## Contributors
+## Автори
 * Victor Buhaiov ([GitHub](https://github.com/mixolydian-b6) | Gmail: v.buhayov@gmail.com)
 * Dmytriy Karpeka ([GitHub](https://github.com/vergilinyan) | Gmail: dmitriy.karpeka@gmail.com)
 * Yuriy Kubyshka ([GitHub](https://github.com/Yuras-KARAS-2019) | Gmail: kubishka.yur@gmail.com)
