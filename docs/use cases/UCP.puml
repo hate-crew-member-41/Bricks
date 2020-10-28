@@ -13,9 +13,9 @@
     
     usecase "<b>UC.u.1</b>\nЗнайти набори даних" as UC.u.1 #d0eeb0
     usecase "<b>UC.u.2</b>\nЗавантажити набір даних" as UC.u.2 #d0eeb0
-    usecase "<b>UC.u.3</b>\nЗареєструватися" as UC.u.3 #fff8bd
+    usecase "<b>UC.u.3</b>\nСтворити акаунт менеджера" as UC.u.3 #fff8bd
 
-    usecase "<b>UC.m.1</b>\nУвійти в систему" as UC.m.1 #bbdaff
+    usecase "<b>UC.m.1</b>\nУвійти в акаунт" as UC.m.1 #bbdaff
     usecase "<b>UC.m.2</b>\nДодати співавтора набору даних" as UC.m.2 #bbdaff
     usecase "<b>UC.m.m</b>\nКерувати наборами даних" as UC.m.m #bbdaff
     usecase "<b>UC.m.m.1</b>\nСтворити набір даних" as UC.m.m.1 #90c0ff
