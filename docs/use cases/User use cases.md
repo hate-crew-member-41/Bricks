@@ -12,8 +12,8 @@
 
 ## <a name="UC.u.2">UC.u.2</a>
 
-![UC.u.1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mixolydian-b6/Bricks/master/docs/use%20cases/user%20use%20cases/UC.u.1.puml)
+![UC.u.2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mixolydian-b6/Bricks/master/docs/use%20cases/user%20use%20cases/UC.u.2.puml)
 
 ## <a name="UC.u.3">UC.u.3</a>
 
-![UC.u.1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mixolydian-b6/Bricks/master/docs/use%20cases/user%20use%20cases/UC.u.1.puml)
+![UC.u.3](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mixolydian-b6/Bricks/master/docs/use%20cases/user%20use%20cases/UC.u.3.puml)
