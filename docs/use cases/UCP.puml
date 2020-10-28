@@ -1,0 +1,50 @@
+@startuml
+    right header
+        <font size=20 color=black>Package: <b>UCP</b></font>
+    end header
+
+    title
+        <font size=18>Система керування відкритими даними <b>Bricks</b></font>
+        <font size=16>Діаграма прецедентів</font>
+    end title
+
+    actor "Користувач" as User #fff8bd
+    actor "Менеджер" as Manager #bbdaff
+    
+    usecase "<b>UC.u.1</b>\nЗнайти набори даних" as UC.u.1 #d0eeb0
+    usecase "<b>UC.u.2</b>\nЗавантажити набір даних" as UC.u.2 #d0eeb0
+    usecase "<b>UC.u.3</b>\nЗареєструватися" as UC.u.3 #fff8bd
+
+    usecase "<b>UC.m.1</b>\nУвійти в систему" as UC.m.1 #bbdaff
+    usecase "<b>UC.m.3</b>\nДодати співавтора набору даних" as UC.m.2 #bbdaff
+    usecase "<b>UC.m.m</b>\nКерувати наборами даних" as UC.m.m #bbdaff
+    usecase "<b>UC.m.m.1</b>\nСтворити набір даних" as UC.m.m.1 #90c0ff
+    usecase "<b>UC.m.m.2</b>\nЗмінити набір даних" as UC.m.m.2 #90c0ff
+    usecase "<b>UC.m.m.3</b>\nВидалити набір даних" as UC.m.m.3 #90c0ff
+
+    UC.u.2 ..> UC.u.1 : extends
+    UC.m.m.1 -d-|> UC.m.m
+    UC.m.m.2 -l-|> UC.m.m
+    UC.m.m.3 -u-|> UC.m.m
+
+    note left of Manager #f5f5f5
+        Менеджер керує тільки
+        своїми наборами даних.
+    end note
+
+    User -l-> UC.u.1
+    User -u-> UC.u.2
+    User -r-> UC.u.3
+
+    Manager -u-> UC.u.1
+    Manager -u-> UC.u.2
+    Manager --> UC.m.1
+    Manager --> UC.m.2
+    Manager -r-> UC.m.m
+    
+    right footer
+        НТУУ "КПІ" ім. І. Сікорського
+        Киів — 2020
+    end footer
+
+@enduml
