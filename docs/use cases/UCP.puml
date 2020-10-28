@@ -6,36 +6,43 @@
 
     actor "Користувач" as User #fff8bd
     actor "Менеджер" as Manager #bbdaff
+
+    note left of Manager #f0f0f0
+        Власник наборів даних,
+        які створив. Може керувати
+        лише власними наборами.
+    end note
     
     usecase "<b>UC.u.1</b>\nЗнайти набори даних" as UC.u.1 #d0eeb0
     usecase "<b>UC.u.2</b>\nЗавантажити набір даних" as UC.u.2 #d0eeb0
     usecase "<b>UC.u.3</b>\nСтворити акаунт менеджера" as UC.u.3 #fff8bd
 
     usecase "<b>UC.m.1</b>\nУвійти в акаунт" as UC.m.1 #bbdaff
-    usecase "<b>UC.m.2</b>\nДодати співавтора набору даних" as UC.m.2 #bbdaff
     usecase "<b>UC.m.m</b>\nКерувати наборами даних" as UC.m.m #bbdaff
     usecase "<b>UC.m.m.1</b>\nСтворити набір даних" as UC.m.m.1 #90c0ff
     usecase "<b>UC.m.m.2</b>\nЗмінити набір даних" as UC.m.m.2 #90c0ff
     usecase "<b>UC.m.m.3</b>\nВидалити набір даних" as UC.m.m.3 #90c0ff
+    usecase "<b>UC.m.m.4</b>\nДодати співавтора набору даних" as UC.m.m.4 #90c0ff
+    usecase "<b>UC.m.m.5</b>\nВидалити співавтора набору даних" as UC.m.m.5 #90c0ff
+
+    note left of UC.m.m.2 #f0f0f0
+        Можуть і співавтори.
+    end note
 
     UC.u.2 ..> UC.u.1 : extends
     UC.m.m.1 -d-|> UC.m.m
-    UC.m.m.2 -l-|> UC.m.m
-    UC.m.m.3 -u-|> UC.m.m
-
-    note left of Manager #f5f5f5
-        Менеджер керує тільки
-        своїми наборами даних.
-    end note
+    UC.m.m.2 -d-|> UC.m.m
+    UC.m.m.3 -l-|> UC.m.m
+    UC.m.m.4 -u-|> UC.m.m
+    UC.m.m.5 -u-|> UC.m.m
 
     User -l-> UC.u.1
     User -u-> UC.u.2
-    User -r-> UC.u.3
+    User -u-> UC.u.3
 
     Manager -u-> UC.u.1
     Manager -u-> UC.u.2
-    Manager --> UC.m.1
-    Manager --> UC.m.2
+    Manager -d-> UC.m.1
     Manager -r-> UC.m.m
     
     right footer
