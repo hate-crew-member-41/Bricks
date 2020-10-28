@@ -8,11 +8,11 @@
 
 ## <a name="UC.u.1">UC.u.1</a>
 
-![UC.u.1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mixolydian-b6/Bricks/master/docs/use%20cases/user%20use%20cases/UC.u.1.puml)
+![UC.u.1]()
 
 ## <a name="UC.u.2">UC.u.2</a>
 
-![UC.u.2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mixolydian-b6/Bricks/master/docs/use%20cases/user%20use%20cases/UC.u.2.puml)
+![UC.u.2]()
 
 ## <a name="UC.u.3">UC.u.3</a>
 
@@ -30,4 +30,4 @@
 
 *Основний сценарій*:
 
-![UC.u.3](http://www.plantuml.com/plantuml/png/ZLDDxj907Dtt59E_MyCVSK52cuQOU0Uteg2D2gQK7OjA5JT64qCW8HAZNA0s8kMZmnNUNC6J-6Q0ske2PjLVvltUnsDezeF7VZ1uzTAo1CyGSqWL8bLlr4X5I12hzqDpPuv1st_d1XP4Z3GUMtvD13B4WjyP90xOgaYGRgKcXZ0aPAocQcQVvRuTfR327l7m7sByD9J_4s23J3E_DMRtAhBpnQjYD313J7iI2Oa-KWCREjUA399YftLpz3Nwb_Dy9Gc9a31_g3vfJSOZprHWVK6BChDS3MdX1-ZsWhRmlMVF0t6dKwzRed3m1HA_62RLei9fkOxdFdnK6LJkL-uvjvxhtBRSkyMLCgPsnkIGTlUfKIpc-cpiiJLQ_b38TA1NoL9DoIas-GfYyrGYmaO2YS0Fn5YhwBHBedTskJYf_VDMClpEL7Tapq6cyWJI59nfjPAANNp0lTV7yTHQfySylbKeu87lFNdHB-N60j-nn5BSO4u_uvlyXdDARudu7Kv4hLghMgUUpiHMamF_Nty0)
+![UC.u.3](http://www.plantuml.com/plantuml/png/ZPDF3j9G4CRtFSKBRWqWBZ2sQOY9Tt0hGhLHmPIoOr6fuiPeOWWaH6AK2o0HAN_wkC8tL_0apfJoB0c9F3OT-ityvljuD7hXqo3iltvbMOhF03DeYf3GMnfIZ1MMz64WxqudKzl_wZkUvprejXvYpiAXj677JsE554l5poaqZjXHh2Z2ciRPt8Wb8vhGr3vJlv-8MEE0vQ0ulogVR3v-oUGhSx15Ae1tsUe7YctJVvCfOsBAa2Cq2rBw92Qsx4F0R2l1Nl2cwOOrRdVt3MkPXnM74j5dGRDPf3HHsFm7oRIfWI8f_3YTRjXMWV_yHSYaUjrIXOElqFZDdXA1AgVfEhxx-4cvNxvVlkTKVDUfDDsxnPPBJUsiCP9sfvKHhzZx8bjAXhpvnuAr8w-i9MA9FC7MTB90hb7Cig72Ik4dVxEXEEz5Gk_jgp5gSSCYpL7i9SWSOhII7iDq5dSgq0kONRpgtJUdCi_GwxAxm2h4yIZmdxtiNQI0ENvWWOKgOSRxZ4hc3TS9JTZCdsYiQjLQrJgdbW-s6bpmF_4l)
