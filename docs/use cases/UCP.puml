@@ -1,12 +1,8 @@
 @startuml
+
     right header
         <font size=20 color=black>Package: <b>UCP</b></font>
     end header
-
-    title
-        <font size=18>Система керування відкритими даними <b>Bricks</b></font>
-        <font size=16>Діаграма прецедентів</font>
-    end title
 
     actor "Користувач" as User #fff8bd
     actor "Менеджер" as Manager #bbdaff
@@ -43,6 +39,7 @@
     Manager -r-> UC.m.m
     
     right footer
+        Система керування відкритими даними <b>Bricks</b>
         НТУУ "КПІ" ім. І. Сікорського
         Киів — 2020
     end footer
