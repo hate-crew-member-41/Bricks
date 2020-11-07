@@ -5,5 +5,6 @@
 ![UC.m.m](http://www.plantuml.com/plantuml/png/fPF1Qfn06CVlFiM7EMUoB5tN5YEXFVVOMo-ZZiaITM0SeVHaixIddahOm99Ishp0LfeWDDc-mZUlq2VfE57MWAc53eZCv__x_VNlV4Uvf48MQM9Pe9TO79z8E64qOiA2TdanpoJaYxViS3g1a2TS70O93KzzB_1VlI0fIRs3mFSE6frlsbWMTHIpfw7a0coyn6kyqzSFlC5hLTf0StX9CthC1Em5GKJZ-BwXo5b8SmRs0ulN6QwRFhN42ZVg36lGk0r-nwqgzVrM5pHxeukrUc_ezysmvph1N-3aIOl_gg6LeTKzl5gfSX2i6xltVemyQyaNUAjMUFUltDaOrscvvxXj28Qgtk4lRL9fOAKB9fHUGchvY9apPZPlpJvXRGW_iVulm_cOeJjiE9wR-_0SPLmoI5WiWSUzQAEdh3Kt2oznYpTggSxKHr2heS-gINUm3TFGTsU02EAtEtW6x8tKkhmlcG4fHYJEk6G-Bd6194CIe-b6RJ_QxoIctflzc7FPd_t0VouMuMdU_8zTNf_n6rxX5TYunY_umTuzMMEjBh22t-KvJ2VJIPTQ1xQEzAP8apy0)
 
 Переглянути сценарії взаємодії:
+  * [спільні](Common%20use%20cases.md)
   * [користувача](User%20use%20cases.md)
   * [менеджера](Manager%20use%20cases.md)
