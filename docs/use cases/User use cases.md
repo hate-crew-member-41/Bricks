@@ -1,20 +1,12 @@
 # Сценарії користувача
 
-[UC.u.1: Знайти набори даних](#UC.u.1)
+[UC.1: Знайти набори даних](Common%20use%20cases.md#UC.1)
 
-[UC.u.2: Завантажити набір даних](#UC.u.2)
+[UC.2: Завантажити набір даних](Common%20use%20cases.md#UC.2)
 
-[UC.u.3: Створити акаунт менеджера](#UC.u.3)
+[UC.u.1: Створити акаунт менеджера](#UC.u.1)
 
-## <a name="UC.u.1">UC.u.1</a>
-
-![UC.u.1]()
-
-## <a name="UC.u.2">UC.u.2</a>
-
-![UC.u.2]()
-
-## <a name="UC.u.3">UC.u.3</a>
+## <a name="UC.u.1">UC.u.1: Створити акаунт менеджера</a>
 
 *Назва*: Створити акаунт менеджера
 
@@ -24,10 +16,8 @@
 
 *Результат*: створений акаунт менеджера
 
-*Виключні ситуації*:
-  1. EX.u.3.1 Користувач некоректно заповнив реєстраційну форму.
-  2. EX.u.3.2 Уведене ім'я акаунту зайняте іншим акаунтом.
+*Виключні ситуації*: відсутні
 
 *Основний сценарій*:
 
-![UC.u.3](http://www.plantuml.com/plantuml/png/ZPFFpj9G4CNtVOgRpwtXGrnWRDCG4z_1hGZLHWLJoev5fOeReuaXD24Iexm04f7ofvTNEFCAFeapfLnBGYANJOUUcT-SmwNH2vy6OV_rAyjIV0QOGbE4bDxIa68iiQ0FW-CxERdQ_bVVyJplGRFr43CM3gKDMtuQAsHOA7xEe770bc954LOqpkT6B1dHX1BxHFr-96A5FHQ3ylogVFBv-2MJByp11fa0tkMhxocsJVzLfeo9X247Q1Paz4bCRCG7WzbMYftWJTDLQrphxXjMCWzB3YMYpumMiyXeeh3-3v9fYO4YBVqudMxOLe7__4N8f7hTKgM3hz3upPvIWIgdwJg--_X9fL-vNxddtFgkSzjqxvPRpZMrayP8sfrMJhnWxujiAHdovXzBrWwyifQ89V8K6zF90hb6CSk62ak5d_pDckAY5oczjo_6gCKDYpH7iPCW2uZHIdeCqtdScK3FO7RvgdVV7CiYGw_BxWAh5CUZm7_sidUM0cRuWJdcwWPJtcTqOzvmdLB2Plv4OrMhrgfMaTffiDNWWl-9Vm40)
+![UC.u.1](http://www.plantuml.com/plantuml/png/dLDDojfG59sxYeSTT29K71KZ8jr9hQQL_bXYEdEWYRKJgL0a0K5AwmPIQV3796xXl2rq9JtljYP-u21y4U4-xxddvpxJ6Ral7VVJ-tULYk8pnXgPdk2WfzhJFdQ8z9UnzEGHj5MSdzYs_RpRQs93e6V6S6ArKaWHATOfCbnmqhuYQwnNmZiXPAu37LfNrH__514ZGJI-vQ-RZ_3Zjs6-muCZKYCm4-k9zgrylaoe8aH8aGio0bBzjPnKCsTXCtcgbmgHhC0dq4DKKnoV8JO42dj4mh1aAnFUe9OJCFoPtvEePKXbXIQss9WQBhgBf7dMYyVT0al3611oPfKQCqM4ktdfDCmJur3-phx9x9GmJo-KkJwg1GnX8j29RFg0Opvvkpg5dS8l_h8thcMMH9-jEphV3P4E2CgGS3LBarn4SgmOtKc46AaHVI1cbVtt3p_-Xpg3rszSPG-7Rj_9-wrk-uKpUFLsr7hMRHUfDlY9BRQgYZMzpgj5Pqsfa47_J5QgKM_KfTF_qBiILpeyyENy2m00)
