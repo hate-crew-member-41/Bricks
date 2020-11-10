@@ -28,11 +28,11 @@ UC.m.m: Керувати наборами даних:
 
 *Результат*: менеджера автоирзовано
 
-*Виключна ситуація*: EX.m.a: акаунта з уведеними даними не існує
+*Виключна ситуація*: ***EX.m.a***: акаунта з уведеними даними не існує
 
 *Основний сценарій*:
 
-![UC.m.a](http://www.plantuml.com/plantuml/png/bLF1RjD04BtdArRb04YeZNgfX2EhGk8VkCQq1WlQ8DVSSWXnM_M00A6gbX0LWlx0rhZ1k5xp2sz-WI_XCKgCWuA0ZPBCxiwyD--DTliW6SR9yxsdlPxX6kCzhk3uBJ33bKp6UgvBCxrV-nj1i3CCmxiuXvKfIdc1Yj6fORqrZ1qQV4CbgK4kHzmK6XfOJKpXPEejU3-2038bSmqxxh24_PyVPK6X-0nopNHAUoXdYdVC_wzmv913D391BQdNulnLNYidWsNR3N9YlVe_kXRi5Y_hc_9wIIli7KDaozm6r_Bojf4pDGi5lIjnhUeaa-pVNSbOopvOFs-MdSi9-Ih3droLidCUPcqnAlBNk6IXWmgHJETo2Oilx0a50qVgeywuzqV9hecZHuyJiczjBSvrqTO6CmeeIMdD8F07aN__mVhU-d2m4Vc3ZS1lytVtTnHhXPWteD7gPSa-Kif1lJmlM6z5tLigAT1G4HCmKnlre6Pu0ZfZwA8Yg-QgCodaMgm3ryWn-epcjybvVteVUjnv8wDdcchcLeKZIetRUpfpBuuUFZbOiWJd-8GBN9WrlCC77A-rDzoNad4stoUdPhE_sU_DBLm0zxQvuVFz0G00)
+![UC.m.a](http://www.plantuml.com/plantuml/png/bLFHQjHG47tVhxZK1nMaNVfIS9Ub2Fw3hxksqQ3jIXhVzc5jsj87KP7IWBI8zWTkGtQDQH9_uSml-2MUZDjh0W4rfRjpvywSC-VCPliW70VXwxsNlPxXCyC55YZvdsA9XSndcjT7AmT_pdScavsnvpt49QmS8fCto1cT6VPRmxX4XH_89J98v9Y7L4C3guKHIZaStF9-gG48iq01EskmUFtwJrcGAZw3H2jBfJsISyKxuVTtbEIG8rGoHo7HmE7yLPwJ4yDox0e9iTxz7vq3kyVBugwyRsc5VM28R5bRuKRUtZTohcOXfNSPRbITn1B_koinUpa7-rV3Sd8v9Lzk-96eKaxEPEoQEL55l6isbb0X4kjUhc7nhPufPL2I-hYnxlrfk6i2_zdpaEnRMvftY1T4N590HafhXfFHq1yzVhA-jpuURlYZuSPavEftztSKgqFC1pMwzZBZ754jfsZl2tRGqVUHIb9KLCG2BDL6JHGCJsjdZBf8PDMSDpRLNb0tOVTFHzEDjsFwQbNwsoHlIf61kwSdZmB_wOk3bXcun5TSuSgiuHC-usJDtV2SISoj_9oVcSt-Ph-tCkyMkBVD0r_SNm00)
 
 ## <a name="UC.m.1">UC.m.1: Переглянути власний набір даних</a>
 
@@ -48,7 +48,7 @@ UC.m.m: Керувати наборами даних:
 
 *Основний сценарій*:
 
-![UC.m.1](http://www.plantuml.com/plantuml/png/ZLHBRjfG59spYgTqYbIK8KGewcVOKLS0mRHM6niHTn29WGjDHXMLAfH8LJzgim7ZbDYbDcpXt2rq9JqNqmUkKb97ZjwxdtFEFLmuF0bQ_U3LySjAnV0Pu2DcoFb-nmrc4WuONp-hoiRcVg_TxhIwtJe-8P8XKdcDEKyJm_x8y9nZWINcCZA8vOA82qmbHAJ8JERopcAnDyP2BkLirOqfBo5xOiEs23dHpzRK0tnLBZBEa24QR0dgrlIlZiyo94-AJ4QKGvXStYYWrikvNCZO834aYP0WtQAmK5YoUh6bfLHca9LTGjIuHSRxyj3gZGwwLFaCp_yQrGBi9D9n4ifdoJNVd_9MVPQnxRvbt8cCxKHpCjyeEdxK2m49OWMeblXbg373V-gqoid9n4z8gJFbG5fbsawJDMp_xaswUtEcXLk5oBL9d2BSlG1tEy-EmkgyMCha7_CVkCs7ldVaz8AJW_jkiwg1nrxW1gwp2Jng1QsUxtf5JQdvYHEqEapRsgUddk-T7gygZPMLytHTMZ8PDVxdQ-ZtrcLzzzdpm7HzFt3w6m7jveE-U_I2REscZTBgRxZ2bTd31tp1-PxDy9xA9MBpAvoO_Tf-RPLnlCuVuCeXB_o5-0q0)
+![UC.m.1](http://www.plantuml.com/plantuml/png/ZLHBRjDG59rd5KzbMecemxYAAZv3Hgp0QHome7QKFWQLCZ0DxGY1XA9MGdm4tO3Z4XACxMpXt2sm4iwpavSFLO8hI-z-xZdd7h_cw5IxFVtgv6MjflZqyGbZv7n_u2V64lMPdpzbfxECxxLQRRVJQU0pOZd7L5uZvMceE1yhddCKc26LWK8YLqGiC988iK5cCPVt5ekp2Ggvbejo6YC64MSInR4OET4ld8N4RuQBZ6DaYFihWZfryzV05padpnIP32Y7CBcyCO2cNoxbIjufJ1H9OammNQ6mK9YnkrZHijQcaAsxXDYvGyQ7ZQNfZLbqPkGpdMwikft0mhELsYTilUNxMzuQdxdH7MiEcLviag8W5D7ngs6n61iB4WEmN_BJLWE6edJOoCd9m2zZA3Do486TXTqYSopQzXkq-yQCAfSgaNDpk4Mq-yDlTvmJbSLvTHad6tiV-is7ON3iTVNfuNs_kMznMNWSQ5_xNbKmYKUkThkX7-XbwecdtJRJ_mm_FGl2uEoax5HMLixJxThbae7pF_z-ONVUrlEVFTUg4uRQwotvMiq7FV_u1TbQJPkbrTznWnkrXu_uYiizMs4ybMiawayqL0VrWtfPyOBs0hXsn82_37y1)
 
 ## <a name="UC.m.m.1">UC.m.m.1: Керувати <i>Concepts</i></a>
 
@@ -108,11 +108,11 @@ UC.m.m: Керувати наборами даних:
 
 *Результат*: менеджер створив набір даних
 
-*Виключні ситуації*:
+*Виключна ситуація*: ***EX.m.m.4***: колекції з уведеним ідентифікатором не існує
 
 *Основний сценарій*:
 
-![UC.m.m.4]()
+![UC.m.m.4](http://www.plantuml.com/plantuml/png/pLRDQXfH5Dxx59Tqqu8q8HG2DKZepxAhRhhLHDkXpOpeT15meJ59DoM18Web9QHvWN6CPkAFli8vhz0dwNVkZ3UZDWEH5kemuTvpx_dEp_VTczcfkBco-td_KogbyAlIEVLeZFUQ-jJZMXNswATtPkxcZ_BvlLon-9n-aCU7572T1XWr5VmzXV6O9ZIb0JSKrx71fmdNDFgOpvIiYecwDD4Ur95rRcHccLnI87xm695NZSKjRiYZuo9DYSX76dk4KB0C1TwNPEW6huc7ASo1ebl5BUn3AZhl8ym6KeE0OEoRKB8TIp17kI1bRi0AL5YEbIpI44W3Fk4MW1zlMzcNZhrRABcLxNKhcrOmlBPToxKATuPNEJTNSYmxtFCaaz3ynMQt4NigUI3vqwZPqWLC6x4-hCOJ-T8OJ3j0yQW_OyjWYOiq0asOYX-tmQrft1XWmJrahy1l6ouz3TmDy_Nnz2BYMYgg6eCfGaqCmwW3g5uIUV0ouUOfH44hC9Xvk3fD9T8WGNnxO3lsmRx62mk0yKt1pUqXb1Z_7vLC9ImIw4enT1qAfuxc7Ijkn2h32J7u4ZqqfHNTAFWDmXFKWGksByZ6N0f0hSMS_vLw7iB0N9YBg1U-9Cfdt4mh_a91r97OFPGiElof2pbWwv2_nWBPZbjGPUlz1nSnjxQCNQES0wKFd81yoJQV5Qc-UxgFvvaalBsUpngFWhsdqVvGnBU5On_sY-knFgMN6ZYQbo7SHmaINK5dV-qYkPpXcBEmf2jeabltotXHWOlzawnHII3aARa9PsUCF4tmQUoIckYBwJQUXvoWZiW4W-H85-8UiWNmeGXkcGalYhRQ_zsaBm2d56wB55bqeAUoMOS0NvIjtO-LETs1wPzqHLTgZRuZ_vCriu9vm6torQzQKsrkR6waPZgDW5CxcE3Zv3S0)
 
 ## <a name="UC.m.m.5">UC.m.m.5: Змінити набір даних</a>
 
@@ -120,15 +120,17 @@ UC.m.m: Керувати наборами даних:
 
 *Учасники*: менеджер, система  
 
-*Передумови*: відсутні
+*Передумови*: менеджер має набір даних
 
 *Результат*: менеджер змінив набір даних  
 
-*Виключні ситуації*: менеджер має набір даних
+*Виключні ситуації*:
+  1. ***EX.m.m.5.1***: менеджера було видалено зі співавторів набору після переходу на його сторінку.
+  2. ***EX.m.m.5.2***: менеджера було видалено зі співавторів набору під час внесення змін.
 
 *Основний сценарій*:
 
-![UC.m.m.5]()
+![UC.m.m.5](http://www.plantuml.com/plantuml/png/hLNHRX9H47tdAsxgWq-so8DDX936n7_mjTYYH5iCnJSUWDKc9gPD3A69iPhA3onhrsvXT_c5Cx_WbtY6NQwiHR9gTqEoT-xCcJCpvrvsZjgxhVRhWvU5Wk7JmIVuYFYxn7VuqktGdZvpp_AlzPrQRM-tNd-8SxZIHo0zJFWrC8nt3RyZn9XX8euXMioVIrCafuQUCnd2ey5ZP2nTk2bm1nUAHAkF46vdALszgEyydM9feXbXf_0LVqfSU7oLkfyaih6OqR-hpd9YdPN29HDvMcTIRygFvg6SbTUt9DE24L6qma3wyduf7HTQVfHGLXHBEd_1NpGhjpsowigf3BA51hZEPBG0cfOxsbsw1xg7Y1Wz9RaqoCDcUz-q6i-UjvbpUrljzc7nCSkUCjmZMgLMhJIgZvzi7l1zi7c_ijMeLhPgLHkpVxWtn_klkHbE9jI530s3L5KE5tsu5bLxXMkCnQ4vOc4nlY6cEJihkFTMYitY_Ek8bU5TCitI-mCj2vQJNdvfV9O-0mA4J3WWAUPyenZgByUSzKaY07R6ruvZmW0keNrsB9vEHYN6PCwDaguCnhHT8J2fY0DvI_FoDB9w31VjGNWhCYlzZSm-wBqZlSMSd9IzVbZswplbOQ8Hwlpx_DJW9SQLjvZXtfWVDZGv-sFT5QUyyd0JaJ1wGuQOwl5U8HFBpLwaQqYiIdE1MP98tkaHp0TaizhxIuRsGbaQFp4LB5vV_Gq9fbgXCL5vJBda-HjglahSKZ7LcnH2o-vJEuzQZQSlZZA2mJc-OeIHsS17zlnum-vm7SWPFFEZEp2bOgbOI0Ms02xiSC5_o9y0)
 
 ## <a name="UC.m.m.6">UC.m.m.6: Додати співавтора набору даних</a>
 
@@ -141,12 +143,12 @@ UC.m.m: Керувати наборами даних:
 *Результат*: менеджер надав іншому менеджерові права на зміну набору даних
 
 *Виключні ситуації*:
-  1. EX.m.m.6.1: уведений пароль є неправильним.
-  2. EX.m.m.6.2: не існує акаунта з уведеним ім'ям.
+  1. ***EX.m.m.6.1***: уведений пароль є неправильним.
+  2. ***EX.m.m.6.2***: не існує акаунта з уведеним ім'ям.
 
 *Основний сценарій*:
 
-![UC.m.m.6](http://www.plantuml.com/plantuml/png/jLL1RjDG4Dtd55zbmOeqP46b9eeg9Ex0jg4DHD06fM6NXOcX4b9495GvKaL19HVuCGrn4yU-mimLE0blVXp_k3KYHM3BYZt-yzwycUUVlPFEVhlpvkXLeQ1mTEapJMY1wuf-q8ITBkB9OLPMxFEzUlrWlz7OfGlItAE0tz8CTsSA-LhXVa4HnJHZDqq1QeHBuzM21mePCNla8-038MA7T6LLoAKW8ZgXa7HtZRPHadENXaYBiQZ7hf36u7O0F-S-UF0piBJ2SWKiNoGjfIKb8EpniF97zLRj22WYGeZx6ThDI_ygu7ZjWzpXWPJlunHUuG_eEit9wZATZQLFM1v832ey8KlfvJXkTGvLk_dyHGUSEpk8smCQ8wYR8zq7MhLUgpPhJvuMZt0-AZwiRZThrUrwBSqvF3umU3aoC7YPfkc-L4YJfFDPEMRK7eNom9vLferVN0Hx8Yj4u9h6c6OFeJu0lrDaLuVPqP1-a6kVDE5l9ogLtkV1_oflKujyuHuI0WgNxfug6WDeIe5AFg20tqkj2tudq0B3fx32ntNNmpSA57DSCuCNcN6uIWOd3aGDxWsbDdzA-gOlmrLxA2p-4x-Lx-AtJxAbeAt9eDoa9-pUkIU-A1Q1WYY3LER6JnxoHcSn8hZ0oQPg6iigTYkvNpkG0IURNqXp-TxJGko6-7lcFCnBYfUe_44-mCs0RhL12ZT9xDbjHIjWHW9uIwe5M9ESup3Z50IDnqLrPPE_bzRhPDdIIOqMND1EtyCuZzlDPozFCcwX2_f68ngfBJf7eq-tx9jpq0_9Lp-TCrKkbKk5bRiIuC8U7l3Fzmi0)
+![UC.m.m.6](http://www.plantuml.com/plantuml/png/hLNHRX9H47tdAsxgWq-so8DDX936n7_mjTYYH5iCnJSUWDKc9gPD3A69iPhA3onhrsvXT_c5Cx_WbtY6NQwiHR9gTqEoT-xCcJCpvrvsZjgxhVRhWvU5Wk7JmIVuYFYxn7VuqktGdZvpp_AlzPrQRM-tNd-8SxZIHo0zJFWrC8nt3RyZn9XX8euXMioVIrCafuQUCnd2ey5ZP2nTk2bm1nUAHAkF46vdALszgEyydM9feXbXf_0LVqfSU7oLkfyaih6OqR-hpd9YdPN29HDvMcTIRygFvg6SbTUt9DE24L6qma3wyduf7HTQVfHGLXHBEd_1NpGhjpsowigf3BA51hZEPBG0cfOxsbsw1xg7Y1Wz9RaqoCDcUz-q6i-UjvbpUrljzc7nCSkUCjmZMgLMhJIgZvzi7l1zi7c_ijMeLhPgLHkpVxWtn_klkHbE9jI530s3L5KE5tsu5bLxXMkCnQ4vOc4nlY6cEJihkFTMYitY_Ek8bU5TCitI-mCj2vQJNdvfV9O-0mA4J3WWAUPyenZgByUSzKaY07R6ruvZmW0keNrsB9vEHYN6PCwDaguCnhHT8J2fY0DvI_FoDB9w31VjGNWhCYlzZSm-wBqZlSMSd9IzVbZswplbOQ8Hwlpx_DJW9SQLjvZXtfWVDZGv-sFT5QUyyd0JaJ1wGuQOwl5U8HFBpLwaQqYiIdE1MP98tkaHp0TaizhxIuRsGbaQFp4LB5vV_Gq9fbgXCL5vJBda-HjglahSKZ7LcnH2o-vJEuzQZQSlZZA2mJc-OeIHsS17zlnum-vm7SWPFFEZEp2bOgbOI0Ms02xiSC5_o9y0)
 
 ## <a name="UC.m.m.7">UC.m.m.7: Видалити співавтора набору даних</a>
 
@@ -158,11 +160,11 @@ UC.m.m: Керувати наборами даних:
 
 *Результат*: менеджер позбавив одного зі співавторів прав на зміну набору даних
 
-*Виключна ситуація*: EX.m.m.7: уведений пароль є неправильним
+*Виключна ситуація*: ***EX.m.m.7***: уведений пароль є неправильним
 
 *Основний сценарій*:
 
-![UC.m.m.7](http://www.plantuml.com/plantuml/png/bLN1RjD04BtdArRbm8r6lKIgewX2uX-uDhI12DgWDDno20bKGgg8X2f7gbfGwGziJDoaIRpvXTbVu4juCyHhkpYjiTNANi--D_FcpMRlfBFVxdmuUbSgALnTkgIG8lnDw9P2s-lAkbmIwINlJ-hrW_r6OvUkIDi-pUn7ckFfN66_LdYEoD2AvdRWjb1WVI0R6jiUQMP0K6I72djN-1HWCG2MiJr-4oGQo-l0YpEyPYe4XRGatKtbqoZplKlVRH_mCrhQ0RAnFXW-CGR7srFhsw-AfWgucgOqKpJ1GmJGpufMY38ESKDMBdyky1UPl3Gp2NsxLpL44cpHpD1y0v43Uf2GQq7qygaTqbAHbYOCA0AELlmlLGvq2Bb2KG2XToo-449GwtFJ3Dt6D9xR-QWtYdi17g2PIBw8kv_KAS5ZqKYAvHRcYbFS32FI8dHVp817pGBGmfvnunTfTcQP02iGaIOfUsBPjoEG5jRX1YW60Knybg4jdleFoIFaeK7DGqu_m0rUuP_HdTkJ9bZBo5RM8ZRMK8NFP8wUh-DMvr2rcw_VTC1PgSYw0xmK9oomFG1QjLwhDcilNZuxmbsfRZThrUrwpUquF3uGj3plnzsE2vZps2LUpcbloh8qjRv4o5V_mJ5qcxBJ4OYZ12YPTE_HOsFJ2H6AR-SIQzWUwUDDquGx1gK7HKlrSXjlt4cvZ9MJeoapFV-DUmqT1Tb-uU4i3dR_O1ISgUWJ97FiFAU0RpZxeZtwHrHkWyAYJ0Yhu1NvVMgzNuVzDNMZ1KkstNTu-7cx-UhjISQwT4K_CQqtQeik8FpfLlBb0lGZLFExTwvsoZlbKcprDN1f3o_uwVm3)
+![UC.m.m.7](http://www.plantuml.com/plantuml/png/dLNDJjj04BxdALRqq5j1N91m5A5AVOTUII5jr09LI6yS0ccHAY4YLSX825fHNi1nOs8SU_qAiw_G9-atOxoE5RSnJSJFUcU_-UQRRzPRX_tjNl_JteT6G-5pHDSKK8AV2TrJO0P7ybm-4kaKwsVjzivsfxD9D-IP4mhDCKNuxqBXlASemXzDAKLcgCWtBX0rZSs0F4R6Pc965WjdKuJusFI1fSs0Lu94OraEdPpXBQT2K40nUKTpV3fh_Dsax-O4QKAApH1i09IOpup1yURKkEPSqLG1rwCfXGh4F4e0-iL2KOfe_JTMjWuky1VfCiqAGj_ArOj8Z2sQQOh-Ar51Tierni_DY695dZHXI0bmF9NzEaRz0LSabIFaWSMNH13IkDmiJVTv6iT2B_744pr0eKWzM-X-5ZmMRQHORbsbAFLD04B89bHIqfoK6pqp8oRYIp4BD5B43pZOdDjWfZ118byKd1JUHGIiT0b6jKMw0uf6G0ZHp-RIOS429HbbHh6awnVyGmW6F6fGQcGkoeM6z53AM1PV3Ez9Yx27ybnnnjcSc_SF-hkgrttxhe-S6nlskM1SYtzcEEu3hTbkDRkjLwzVxE6xqLpjjfghxPOziRk_8sXLav9x92yWaY6r4r1X2cO_DQxio5DtVePiYd_E4ZA9_mIek0-SfPTBzJsYA12NHnAhnI_5l7ANkLDGU5YtHAUouThUgt6kM5nsOTvQRO-Nnl2fAMyfpPAQhp9QDS4iYypMKv7CNxm8h0qLy3KNjgHjYpfpPnGUoh2mC4wT5zl1nopiqT-T0xYpP_TXvvUzxfltXoKNqmtzf3kwKojqXLwShXGxLqX_YIf-3oxK-jhwMkFHzJbmOmiBl7F_0000)
 
 ## <a name="UC.m.m.8">UC.m.m.8: Видалити набір даних</a>
 
@@ -174,7 +176,7 @@ UC.m.m: Керувати наборами даних:
 
 *Результат*: менеджер видалив набір даних
 
-*Виключна ситуація*: EX.m.m.8: уведений пароль є неправильним
+*Виключна ситуація*: ***EX.m.m.8***: уведений пароль є неправильним
 
 *Основний сценарій*:
 
