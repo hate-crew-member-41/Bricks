@@ -30,10 +30,19 @@
 
 ## <a name="description">Характеристика ділових процесів</a>
 
-Зовнішніми факторами цієї сфери діяльності є користувачі та/або зовнішні системи, яким необхідно знайти дані для їх перегляду або завантаження.
+Зовнішніми факторами цієї сфери діяльності є користувачі, яким необхідно знайти дані для їх перегляду або завантаження. У системі вони зберігаються згідно з [форматом опису даних](Subject%20analysis.md#ddf). Об'єктом взаємодії користувачів із системою є набір даних. Сценарій його створення наведено нижче.
 
-Внутрішніми факторами є робітники. Завдання адміністраторів – забезпечити цілісність даних і реалізувати політику безпеки. Завдання менеджерів – керування наборами даних.
-Дизайнер займається візуальною складовою сайту. Веб-програміст має підтримувати технічні аспекти сайту й реалізовувати побажання замовника.
+*Учасники*: менеджер, система  
+
+*Передумови*: відсутні
+
+*Результат*: менеджер створив набір даних
+
+*Виключна ситуація*: ***EX.m.m.4***: колекції з уведеним ідентифікатором не існує
+
+*Основний сценарій*:
+
+![UC.m.m.4](http://www.plantuml.com/plantuml/png/pLRDQXfH5Dxx59Tqqu8q8HG2DKZepxAhRhhLHDkXpOpeT15meJ59DoM18Web9QHvWN6CPkAFli8vhz0dwNVkZ3UZDWEH5kemuTvpx_dEp_VTczcfkBco-td_KogbyAlIEVLeZFUQ-jJZMXNswATtPkxcZ_BvlLon-9n-aCU7572T1XWr5VmzXV6O9ZIb0JSKrx71fmdNDFgOpvIiYecwDD4Ur95rRcHccLnI87xm695NZSKjRiYZuo9DYSX76dk4KB0C1TwNPEW6huc7ASo1ebl5BUn3AZhl8ym6KeE0OEoRKB8TIp17kI1bRi0AL5YEbIpI44W3Fk4MW1zlMzcNZhrRABcLxNKhcrOmlBPToxKATuPNEJTNSYmxtFCaaz3ynMQt4NigUI3vqwZPqWLC6x4-hCOJ-T8OJ3j0yQW_OyjWYOiq0asOYX-tmQrft1XWmJrahy1l6ouz3TmDy_Nnz2BYMYgg6eCfGaqCmwW3g5uIUV0ouUOfH44hC9Xvk3fD9T8WGNnxO3lsmRx62mk0yKt1pUqXb1Z_7vLC9ImIw4enT1qAfuxc7Ijkn2h32J7u4ZqqfHNTAFWDmXFKWGksByZ6N0f0hSMS_vLw7iB0N9YBg1U-9Cfdt4mh_a91r97OFPGiElof2pbWwv2_nWBPZbjGPUlz1nSnjxQCNQES0wKFd81yoJQV5Qc-UxgFvvaalBsUpngFWhsdqVvGnBU5On_sY-knFgMN6ZYQbo7SHmaINK5dV-qYkPpXcBEmf2jeabltotXHWOlzawnHII3aARa9PsUCF4tmQUoIckYBwJQUXvoWZiW4W-H85-8UiWNmeGXkcGalYhRQ_zsaBm2d56wB55bqeAUoMOS0NvIjtO-LETs1wPzqHLTgZRuZ_vCriu9vm6torQzQKsrkR6waPZgDW5CxcE3Zv3S0)
 
 ## <a name="insight">Короткий огляд продукту</a>
 
