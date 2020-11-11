@@ -1,0 +1,52 @@
+@startuml
+
+    right header
+        <font size=20 color=black>Package: <b>UCP</b></font>
+    end header
+
+    actor "Користувач" as User #fff8bd
+    actor "Менеджер" as Manager #bbdaff
+
+    note right of Manager #d9eaff
+        Власник наборів даних,
+        які створив. Може керувати
+        лише власними наборами.
+    end note
+
+    Manager -u-|> User
+    
+    usecase "<b>UC.1</b>\nЗнайти набори даних" as UC.1 #d0eeb0
+    usecase "<b>UC.2</b>\nЗавантажити набір даних" as UC.2 #d0eeb0
+
+    usecase "<b>UC.u.1</b>\nСтворити акаунт менеджера" as UC.u.1 #fff8bd
+
+    usecase "<b>UC.m.a</b>\nУвійти в акаунт" as UC.m.a #bbdaff
+    usecase "<b>UC.m.m</b>\nКерувати наборами даних" as UC.m.m #86baff
+    usecase "<b>UC.m.1</b>\nПереглянути власний набір даних" as UC.m.1 #bbdaff
+    usecase "<b>UC.m.m.1</b>\nКерувати <i>Concepts</i>" as UC.m.m.1 #bbdaff
+    usecase "<b>UC.m.m.2</b>\nКерувати <i>Entities</i>" as UC.m.m.2 #bbdaff
+    usecase "<b>UC.m.m.3</b>\nКерувати <i>Datapoints</i>" as UC.m.m.3 #bbdaff
+
+    UC.m.m ..> UC.m.1 : extends
+
+	UC.m.m.1 ..> UC.m.m : extends
+	UC.m.m.2 ..> UC.m.m : extends
+	UC.m.m.3 ..> UC.m.m : extends
+
+	User -d-> UC.1
+	User -d-> UC.2
+	User -u-> UC.u.1
+
+	Manager -u-> UC.m.a
+	Manager -l-> UC.m.m.1
+	Manager -d-> UC.m.m.2
+	Manager -d-> UC.m.m.3
+	Manager -d-> UC.m.1
+    
+    right footer
+        <b>Bricks</b>
+        НТУУ "КПІ"
+        Київ — 2020
+    end footer
+
+@enduml
