@@ -20,4 +20,4 @@
 
 *Основний сценарій*:
 
-![UC.u.1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mixolydian-b6/Bricks/master/src/uml/UC.u.1.puml)
+![UC.u.1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mixolydian-b6/Bricks/master/src/puml/UC.u.1.puml)
