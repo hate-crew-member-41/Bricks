@@ -1,8 +1,8 @@
 # Модель прецедентів
 
-![UCP](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mixolydian-b6/Bricks/master/src/uml/UCP.puml)
+![UCP](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mixolydian-b6/Bricks/master/src/puml/UCP.puml)
 
-![UC.m.m](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mixolydian-b6/Bricks/master/src/uml/UC.m.m.puml)
+![UCP.m.cd](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mixolydian-b6/Bricks/master/src/puml/UCP.m.cd.puml)
 
 Переглянути сценарії взаємодії:
   * [спільні](Common%20use%20cases.md)
