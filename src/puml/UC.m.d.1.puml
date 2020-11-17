@@ -1,56 +1,53 @@
 @startuml
 
-    |Менеджер|
+  entity Набір {
+    name:TEXT
+    Entities: Entities
+    Datapoints: Datapoints
+    Metadata: Metadata
+    Concepts: Concepts
+    Synonyms: Synonyms
+  }
+  
+  entity Менеджер {
+    name:TEXT
+  }
+  
+  entity Зміна {
+    name:TEXT
+  }
+  
+  entity Entities {
+    date: DATE
+    quantity: NUMBER
+  }
 
-        start;
-
-        #bbdaff:Натискає на кнопку редагування змінюваної
-        колекції набору серед <i>Concepts</i>, <i>Synonyms</i>,
-        <i>Entities</i>, <i>Datapoints</i>, <i>Metadata</i>;
-
-    |Система|
-
-        #f0f0f0:Перевіряє, чи має менеджер
-        права на зміну набору;
-
-        note right #f77
-            Можлива <b><i>EX.m.d.1.1</i></b>
-        end note
-
-        #f0f0f0:Відображає сторінку редагування
-        обраної колекції;
-
-    |Менеджер|
-
-        #bbdaff:Вносить зміни до обраної колекції;
-
-        #bbdaff:Натискає на кнопку збереження змін;
-
-    |Система|
-
-        #f0f0f0:Перевіряє, чи має менеджер
-        права на зміну набору;
-
-        note right #f77
-            Можлива <b><i>EX.m.d.1.2</i></b>
-        end note
-
-        #f0f0f0:Вносить зміни в колекції в базу даних;
-
-        #f0f0f0:Повідомляє менеджера про
-        збережені зміни в колекції;
-
-        #f0f0f0:Сповіщає співавторів набору про
-        зміни у відповідній колекції;
-
-    |Менеджер|
-
-        stop;
-
-    right footer
-        <b>Bricks</b>
-        НТУУ "КПІ"
-        Київ — 2020
-    end footer
-
+  entity Datapoints {
+    date: DATE
+    quantity: NUMBER
+  }
+  
+    entity Metadata {
+    date: DATE
+    quantity: NUMBER
+  }
+  
+    entity Concepts {
+    date: DATE
+    quantity: NUMBER
+  }
+  
+    entity Synonyms {
+    date: DATE
+    quantity: NUMBER
+  }
+  
+  Зміна "0,*"-- "1,1" Менеджер
+  Менеджер "0,*"-- "1,*" Набір
+  Entities "0,*"-- "1,1" Зміна
+  Datapoints "0,*"-- "1,1" Зміна
+  Metadata "0,*"-- "1,1" Зміна
+  Concepts "0,*"-- "1,1" Зміна
+  Synonyms "0,*"-- "1,1" Зміна
+    
 @enduml
