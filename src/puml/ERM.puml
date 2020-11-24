@@ -1,0 +1,55 @@
+@startuml
+
+entity User #fff8bd {
+    username: TEXT
+    id: TEXT
+    password: TEXT
+}
+
+entity Manager #aed3ff {
+    datasets: DATASET
+}
+
+Manager -l-|> User
+
+entity Dataset #86baff {
+    name: TEXT
+    id: TEXT
+    authors: MANAGER
+    concepts_id: TEXT
+    entities_id: TEXT
+    datapoints_id: TEXT
+    synonyms: TEXT
+    metadata: TEXT
+}
+
+Manager "0, *"-r-"1, *" Dataset
+
+entity Concepts #aed3ff {
+    name: TEXT
+    id: TEXT
+    authors: MANAGER
+    UNIQUE: UNIQUE
+}
+
+Concepts "0, *"-l-"1, 1" Dataset
+
+entity Entities #aed3ff {
+    name: TEXT
+    id: TEXT
+    authors: MANAGER
+    UNIQUE: UNIQUE
+}
+
+Entities "0, *"-u-"1, 1" Dataset
+
+entity Datapoints #aed3ff {
+    name: TEXT
+    id: TEXT
+    authors: MANAGER
+    UNIQUE: UNIQUE
+}
+
+Datapoints "0, *"-u-"1, 1" Dataset
+
+@enduml
