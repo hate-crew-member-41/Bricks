@@ -1,0 +1,70 @@
+@startuml
+
+entity User #fff8bd {
+    username: TEXT
+    id: TEXT
+    password: TEXT
+}
+
+entity Manager #aed3ff {}
+
+Manager -l-|> User
+
+entity Dataset #86baff {
+    id: TEXT
+    concepts_id: TEXT
+    entities_id: TEXT
+    datapoints_id: TEXT
+    synonyms_id: TEXT
+    metadata_id: TEXT
+}
+
+Dataset "0, *"--"1, *" Manager
+
+entity Concepts #aed3ff {
+    id: TEXT
+    concept: TEXT
+    type: TYPE
+    unit: TEXT
+}
+
+Concepts "1, *"-u-"0, *" Manager
+Concepts "0, *"-d-"1, 1" Dataset
+
+entity Entities #aed3ff {
+    id: TEXT
+}
+
+Entities "1, *"-u-"0, *" Manager
+Entities "0, *"-d-"1, 1" Dataset
+
+entity Datapoints #aed3ff {
+    id: TEXT
+    key
+    datapoint
+}
+
+Datapoints "1, *"-u-"0, *" Manager
+Datapoints "0, *"-d-"1, 1" Dataset
+
+entity Synonyms #aed3ff {
+    id: TEXT
+    concept: TEXT
+    synonym: TEXT
+}
+
+Synonyms "1, *"-u-"0, *" Manager
+Synonyms "0, *"-d-"1, 1" Dataset
+
+entity Metadata #aed3ff {
+    id: TEXT
+    key
+    value
+    filter
+    metadata: TEXT
+}
+
+Metadata "1, *"-u-"0, *" Manager
+Metadata "0, *"-d-"1, 1" Dataset
+
+@enduml
