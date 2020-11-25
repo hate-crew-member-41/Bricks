@@ -6,50 +6,65 @@ entity User #fff8bd {
     password: TEXT
 }
 
-entity Manager #aed3ff {
-    datasets: DATASET
-}
+entity Manager #aed3ff {}
 
 Manager -l-|> User
 
 entity Dataset #86baff {
-    name: TEXT
     id: TEXT
-    authors: MANAGER
     concepts_id: TEXT
     entities_id: TEXT
     datapoints_id: TEXT
-    synonyms: TEXT
+    synonyms_id: TEXT
+    metadata_id: TEXT
+}
+
+Dataset "0, *"--"1, *" Manager
+
+entity Concepts #aed3ff {
+    id: TEXT
+    concept: TEXT
+    type: TYPE
+    unit: TEXT
+}
+
+Concepts "1, *"-u-"0, *" Manager
+Concepts "0, *"-d-"1, 1" Dataset
+
+entity Entities #aed3ff {
+    id: TEXT
+}
+
+Entities "1, *"-u-"0, *" Manager
+Entities "0, *"-d-"1, 1" Dataset
+
+entity Datapoints #aed3ff {
+    id: TEXT
+    key
+    datapoint
+}
+
+Datapoints "1, *"-u-"0, *" Manager
+Datapoints "0, *"-d-"1, 1" Dataset
+
+entity Synonyms #aed3ff {
+    id: TEXT
+    concept: TEXT
+    synonym: TEXT
+}
+
+Synonyms "1, *"-u-"0, *" Manager
+Synonyms "0, *"-d-"1, 1" Dataset
+
+entity Metadata #aed3ff {
+    id: TEXT
+    key
+    value
+    filter
     metadata: TEXT
 }
 
-Manager "0, *"-r-"1, *" Dataset
-
-entity Concepts #aed3ff {
-    name: TEXT
-    id: TEXT
-    authors: MANAGER
-    UNIQUE: UNIQUE
-}
-
-Concepts "0, *"-l-"1, 1" Dataset
-
-entity Entities #aed3ff {
-    name: TEXT
-    id: TEXT
-    authors: MANAGER
-    UNIQUE: UNIQUE
-}
-
-Entities "0, *"-u-"1, 1" Dataset
-
-entity Datapoints #aed3ff {
-    name: TEXT
-    id: TEXT
-    authors: MANAGER
-    UNIQUE: UNIQUE
-}
-
-Datapoints "0, *"-u-"1, 1" Dataset
+Metadata "1, *"-u-"0, *" Manager
+Metadata "0, *"-d-"1, 1" Dataset
 
 @enduml
