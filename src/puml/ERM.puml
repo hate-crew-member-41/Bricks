@@ -2,64 +2,38 @@
 
 entity Dataset #86baff {
     id: INT
+    concepts_ids: INT
+    entities_ids: INT
+    datapoints_ids: INT
+    metadata_ids: INT
 }
 
-entity Concepts #aed3ff {
+entity ConceptsIDs #aed3ff {
     id: INT
-    concept: TEXT
-    type: TYPE
-    unit: TEXT
+    concepts_id: INT
 }
 
-entity CLink #f0f0f0 {}
+Dataset "1, 1"-d-"0, 1" ConceptsIDs
 
-Dataset "1, 1"-u-"0, *" CLink
-Concepts "1, 1"-d-"0, *" CLink
-
-entity Entities #aed3ff {
+entity EntitiesIDs #aed3ff {
     id: INT
-    key
-    table
+    entities_id: INT
 }
 
-entity ELink #f0f0f0 {}
+Dataset "1, 1"-d-"0, 1" EntitiesIDs
 
-Dataset "1, 1"-u-"0, *" ELink
-Entities "1, 1"-d-"0, *" ELink
-
-entity Datapoints #aed3ff {
+entity DatapointsIDs #aed3ff {
     id: INT
-    key
-    table
+    datapoints_id: INT
 }
 
-entity DLink #f0f0f0 {}
+Dataset "1, 1"-d-"0, 1" DatapointsIDs
 
-Dataset "1, 1"-u-"0, *" DLink
-Datapoints "1, 1"-d-"0, *" DLink
-
-entity Synonyms #aed3ff {
+entity MetadataIDs #aed3ff {
     id: INT
-    concept: TEXT
-    synonym: TEXT
+    metadata_id: INT
 }
 
-entity SLink #f0f0f0 {}
-
-Dataset "1, 1"-u-"0, *" SLink
-Synonyms "1, 1"-d-"0, *" SLink
-
-entity Metadata #aed3ff {
-    id: INT
-    key
-    value
-    filter
-    metadata: TEXT
-}
-
-Metadata "0, *"-d-"1, 1" Datapoints
-Metadata "0, *"-d-"1, 1" Entities
-Metadata "0, *"-d-"1, 1" Concepts
-
+Dataset "1, 1"-d-"0, 1" MetadataIDs
 
 @enduml
