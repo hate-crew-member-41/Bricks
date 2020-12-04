@@ -1,70 +1,39 @@
 @startuml
 
-entity User #fff8bd {
-    username: TEXT
-    id: TEXT
-    password: TEXT
-}
-
-entity Manager #aed3ff {}
-
-Manager -l-|> User
-
 entity Dataset #86baff {
-    id: TEXT
-    concepts_id: TEXT
-    entities_id: TEXT
-    datapoints_id: TEXT
-    synonyms_id: TEXT
-    metadata_id: TEXT
+    id: INT
+    concepts_ids: INT
+    entities_ids: INT
+    datapoints_ids: INT
+    metadata_ids: INT
 }
 
-Dataset "0, *"--"1, *" Manager
-
-entity Concepts #aed3ff {
-    id: TEXT
-    concept: TEXT
-    type: TYPE
-    unit: TEXT
+entity ConceptsIDs #aed3ff {
+    id: INT
+    concepts_id: INT
 }
 
-Concepts "1, *"-u-"0, *" Manager
-Concepts "0, *"-d-"1, 1" Dataset
+Dataset "1, 1"-d-"0, 1" ConceptsIDs
 
-entity Entities #aed3ff {
-    id: TEXT
+entity EntitiesIDs #aed3ff {
+    id: INT
+    entities_id: INT
 }
 
-Entities "1, *"-u-"0, *" Manager
-Entities "0, *"-d-"1, 1" Dataset
+Dataset "1, 1"-d-"0, 1" EntitiesIDs
 
-entity Datapoints #aed3ff {
-    id: TEXT
-    key
-    datapoint
+entity DatapointsIDs #aed3ff {
+    id: INT
+    datapoints_id: INT
 }
 
-Datapoints "1, *"-u-"0, *" Manager
-Datapoints "0, *"-d-"1, 1" Dataset
+Dataset "1, 1"-d-"0, 1" DatapointsIDs
 
-entity Synonyms #aed3ff {
-    id: TEXT
-    concept: TEXT
-    synonym: TEXT
+entity MetadataIDs #aed3ff {
+    id: INT
+    metadata_id: INT
 }
 
-Synonyms "1, *"-u-"0, *" Manager
-Synonyms "0, *"-d-"1, 1" Dataset
-
-entity Metadata #aed3ff {
-    id: TEXT
-    key
-    value
-    filter
-    metadata: TEXT
-}
-
-Metadata "1, *"-u-"0, *" Manager
-Metadata "0, *"-d-"1, 1" Dataset
+Dataset "1, 1"-d-"0, 1" MetadataIDs
 
 @enduml
