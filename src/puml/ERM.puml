@@ -1,0 +1,39 @@
+@startuml
+
+entity Dataset #86baff {
+    id: INT
+    concepts_ids: INT
+    entities_ids: INT
+    datapoints_ids: INT
+    metadata_ids: INT
+}
+
+entity ConceptsIDs #aed3ff {
+    id: INT
+    concepts_id: INT
+}
+
+Dataset "1, 1"-d-"0, 1" ConceptsIDs
+
+entity EntitiesIDs #aed3ff {
+    id: INT
+    entities_id: INT
+}
+
+Dataset "1, 1"-d-"0, 1" EntitiesIDs
+
+entity DatapointsIDs #aed3ff {
+    id: INT
+    datapoints_id: INT
+}
+
+Dataset "1, 1"-d-"0, 1" DatapointsIDs
+
+entity MetadataIDs #aed3ff {
+    id: INT
+    metadata_id: INT
+}
+
+Dataset "1, 1"-d-"0, 1" MetadataIDs
+
+@enduml
