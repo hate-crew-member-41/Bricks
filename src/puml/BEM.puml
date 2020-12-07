@@ -38,12 +38,10 @@ entity Synonyms #aed3ff {}
 
 Synonyms "0, *"-u-"1, 1" Concepts
 
-entity Synonyms.id #e0eeff {}
 entity Synonyms.concept_id #e0eeff {}
 entity Synonyms.synonym #e0eeff {}
 
-Synonyms.id -r-* Synonyms
-Synonyms.concept_id -u-* Synonyms
+Synonyms.concept_id -r-* Synonyms
 Synonyms.synonym -u-* Synonyms
 
 

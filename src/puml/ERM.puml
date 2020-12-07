@@ -21,7 +21,6 @@ DCLink "0, *"-u-"1, 1" Dataset
 DCLink "0, *"-d-"1, 1" Concepts
 
 entity Synonyms #aed3ff {
-    id: INT
     concept_id: INT
     synonym: TEXT
 }
