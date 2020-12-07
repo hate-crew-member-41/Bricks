@@ -1,5 +1,5 @@
 # Документація
 
-[Аналіз вимог до системи керування відкритими даними](https://github.com/mixolydian-b6/Bricks/tree/master/docs/requirements)
+[Аналіз вимог до системи керування відкритими даними](requirements)
 
-[Модель прецедентів](https://github.com/mixolydian-b6/Bricks/tree/master/docs/use%20cases)
+[Модель прецедентів](use%20cases)
