@@ -1,90 +1,90 @@
 @startuml
 
-entity User #fff8bd {}
-entity User.username #fffbdc {}
-entity User.id #fffbdc {}
-entity User.password #fffbdc {}
-
-entity Manager #aed3ff {}
-
-Manager --|> User
-
 entity Dataset #86baff {}
-entity Dataset.id #e0eeff {}
-entity Dataset.concepts_id #e0eeff {}
-entity Dataset.entities_id #e0eeff {}
-entity Dataset.datapoints_id #e0eeff {}
-entity Dataset.synonyms_id #e0eeff {}
-entity Dataset.metadata_id #e0eeff {}
 
-Manager "0, *"--"1, *" Dataset
+entity Dataset.id #e0eeff {}
+
+Dataset.id --* Dataset
+
 
 entity Concepts #aed3ff {}
+
 entity Concepts.id #e0eeff {}
 entity Concepts.concept #e0eeff {}
+entity Concepts.name #e0eeff {}
 entity Concepts.type #e0eeff {}
 entity Concepts.unit #e0eeff {}
 
-Concepts "0, *"-u-"1, 1" Dataset
+Concepts.id -r-* Concepts
+Concepts.concept --* Concepts
+Concepts.name --* Concepts
+Concepts.type --* Concepts
+Concepts.unit --* Concepts
+
+
+entity DCLink #dadada {}
+
+DCLink "0, *"--"1, 1" Dataset
+DCLink "0, *"-l-"1, 1" Concepts
+
+entity DCLink.dataset_id #f0f0f0 {}
+entity DCLink.concept_id #f0f0f0 {}
+
+DCLink.dataset_id -u-* DCLink
+DCLink.concept_id -u-* DCLink
+
+
+entity Synonyms #aed3ff {}
+
+Synonyms "0, *"-u-"1, 1" Concepts
+
+entity Synonyms.id #e0eeff {}
+entity Synonyms.concept_id #e0eeff {}
+entity Synonyms.synonym #e0eeff {}
+
+Synonyms.id -r-* Synonyms
+Synonyms.concept_id -u-* Synonyms
+Synonyms.synonym -u-* Synonyms
+
 
 entity Entities #aed3ff {}
-entity Entities.id #e0eeff{}
 
-Entities "0, *"-u-"1, 1" Dataset
+Entities "0, *"--"1, 1" Dataset
+
+entity Entities.id #e0eeff {}
+entity Entities.dataset_id #e0eeff {}
+entity Entities.name #e0eeff {}
+
+Entities.id --* Entities
+Entities.dataset_id --* Entities
+Entities.name --* Entities
+
 
 entity Datapoints #aed3ff {}
-entity Datapoints.id #e0eeff {}
-entity Datapoints.key #e0eeff {}
-entity Datapoints.datapoint #e0eeff {}
 
 Datapoints "0, *"-u-"1, 1" Dataset
 
-entity Synonyms #aed3ff {}
-entity Synonyms.id #e0eeff {}
-entity Synonyms.concept #e0eeff {}
-entity Synonyms.synonym #e0eeff {}
+entity Datapoints.id #e0eeff {}
+entity Datapoints.dataset_id #e0eeff {}
+entity Datapoints.name #e0eeff {}
 
-Synonyms "0, *"-u-"1, 1" Dataset
+Datapoints.id -l-* Datapoints
+Datapoints.dataset_id -u-* Datapoints
+Datapoints.name -u-* Datapoints
+
 
 entity Metadata #aed3ff {}
+
+Metadata "0, *"--"1, 1" Dataset
+
 entity Metadata.id #e0eeff {}
+entity Metadata.dataset_id #e0eeff {}
 entity Metadata.key #e0eeff {}
 entity Metadata.value #e0eeff {}
-entity Metadata.filter #e0eeff {}
-entity Metadata.metadata #e0eeff {}
 
-Metadata "0, *"-u-"1, 1" Dataset
-
-User.username -u-* User
-User.id -u-* User
-User.password -u-* User
-
-Dataset.id -d-* Dataset
-Dataset.concepts_id -d-* Dataset
-Dataset.entities_id -d-* Dataset
-Dataset.datapoints_id -d-* Dataset
-Dataset.synonyms_id -d-* Dataset
-Dataset.metadata_id -d-* Dataset
-
-Concepts.id -u-* Concepts
-Concepts.concept -u-* Concepts
-Concepts.type -u-* Concepts
-Concepts.unit -u-* Concepts
-
-Entities.id --* Entities
-
-Datapoints.id --* Datapoints
-Datapoints.key --* Datapoints
-Datapoints.datapoint --* Datapoints
-
-Synonyms.id --* Synonyms
-Synonyms.concept --* Synonyms
-Synonyms.synonym --* Synonyms
-
-Metadata.id -u-* Metadata
+Metadata.id -d-* Metadata
+Metadata.dataset_id -l-* Metadata
 Metadata.key -u-* Metadata
 Metadata.value -u-* Metadata
-Metadata.filter -u-* Metadata
-Metadata.metadata -u-* Metadata
 
 @enduml
