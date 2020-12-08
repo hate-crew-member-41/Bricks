@@ -1,6 +1,6 @@
 module.exports = {
     name: "bricks_db",
-    username: "root",
+    username: "VictorBuhaiov",
     password: "SQLolian_#0?",
     host: "localhost",
     dialect: "mysql"
