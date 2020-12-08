@@ -1,0 +1,26 @@
+{
+  "name": "bricks",
+  "version": "1.0.0",
+  "description": "**Bricks** – система керування відкритими даними, яка забезпечує усі етапи їх життєвого циклу. Можливо здійснювати пошук необхідних наборів даних і одразу визначати, який з них відповідає потребам користувача завдяки їх детальному опису. Будь-який набір даних можна безкоштовно завантажити. Для зручного сприймання, набір можна візуалізувати та обрати його відображувану частину.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixolydian-b6/Bricks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mixolydian-b6/Bricks/issues"
+  },
+  "homepage": "https://github.com/mixolydian-b6/Bricks#readme",
+  "dependencies": {
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
